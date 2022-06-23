@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+	<!-- Icons -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<!-- Styles -->
+	<link rel="stylesheet" href="./global.css">
+	<link rel="stylesheet" href="./styles.css">
+	<link rel="stylesheet" href="./media-queries.css">
+	<title>Portfolio</title>
+</head>
+
+<body>
+
+	<div class= " container">
+		<header class="header">
+		  <nav class= "nav">
+				<ul class="social_links">
+					<li>
+						<a class= "social_link" 
+					      href= "https://github.com/codernami" target= "_blank">
+					      <i class="fab fa-github"></i>
+				  	 </a>		
+					</li>
+					<li>
+				    <a class= "social_link" 
+				      	href= "https://codepen.io/codernami" target= "_blank">
+				      	<i class="fa-brands fa-codepen"></i>
+				      	
+				     </a>		
+					</li>
+					<li>
+				    <a class= "social_link" 
+				      href= "mailto:codernami@gmail.com"target= "_blank">
+				      <i class="fa fa-envelope"></i>
+				    </a>		
+					</li>
+				</ul>  
+
+		  	<div class="nav_bar">
+		  		<i class="fa-solid fa-bars icon" id="icon-open"></i>
+		  		<i class="fa-solid fa-xmark icon hide"id="icon-close"></i>
+		  	</div>
+
+		    <ul class="nav_menu hide" id="menu">
+		      <li class= "nav_item">
+		      	<a class= "nav_link" href= "#about-section">
+		      		About
+		      	</a>
+		      </li>
+		      <li class= "nav_item">
+		      	<a class= "nav_link" href= "#projects-section">
+		      		Projects
+		      	</a>
+		      </li>
+		      <li class= "nav_item">
+		      	<a class= "nav_link" href= "#projects-section">
+		      		Contact
+		      	</a>
+		      </li>
+		    </ul>
+			</nav>
+		</header>  
+
+	  <section class= "about" id= "about-section">
+      <div class="about_info">
+	      <h1 class="about_name">
+		      Codernami
+		    </h1>
+		    <h2 class="about_title">
+		    	Web Developer
+		  	</h2>
+	      <p class="about_description">
+	      	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	      	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	      	quis nostrud exercitation ullamco 
+	      </p>
+				<div class="about_tech">
+	    	  <i class="fab fa-js"></i>
+	    	  <i class="fab fa-vuejs"></i>
+	    	  <i class="fab fa-react"></i>
+	    	  <i class="fab fa-bootstrap"></i>
+	    	  <i class="fab fa-git"></i>
+	    	  <i class="fab fa-figma"></i>
+      	</div>
+    	</div>
+	  </section>
+
+	  <section class="projects-section" id= "projects-section">
+	    <h2 class="projects_title">
+	  	  Projects
+	  	</h2>
+	    <div class= "projects">
+		    <div class= "project">
+		    	<div class="project_info">
+		        <h3 class= "project_title">
+		        		React Landing Page
+		        </h3>
+		        <p class="project_description">
+			        Landing page built with react styled components and css flexbox.
+			      </p>
+		      </div>  
+					<div class="project_bar">
+			      <a href= "https://github.com/codernami/react-landing-page" target= "_blank">
+			      	<i class="fab fa-github"></i>
+			       	Code 
+			      </a>
+			      <a href= "https://csb-9jk52o.netlify.app/" target= "_blank">
+			     	 <i class="fa-solid fa-arrow-up-right-from-square"></i>
+			       	Demo
+			     	</a>
+			    </div>
+		    </div> 
+
+		    <div class= "project">
+		    	<div class="project_info">
+			      <h3 class= "project_title">
+			      	Css Landing Page
+			      </h3>
+			      <p class="project_description">
+			        Landing page built with css flexbox. Mobile first design.
+			      </p>
+			    </div>  
+		  		<div class="project_bar">
+			      <a href= "https://github.com/codernami/insure-landing-page" target= "_blank">
+			       	<i class="fab fa-github"></i>
+			       	Code
+			      </a>
+			      <a href= "https://codernami.github.io/insure-landing-page/" target= "_blank">
+			       	<i class="fa-solid fa-arrow-up-right-from-square"></i>
+			       	Demo
+			     	</a>
+			    </div>   
+		    </div>
+		  </div>
+	  </section>
+
+		<footer class="footer">
+			<h3 class="footer_name">
+				 @codernami_2022
+			</h3>
+		</footer>	
+
+	<script src= "./main.js"></script>
+</body>
+</html>

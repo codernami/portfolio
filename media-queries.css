@@ -1,0 +1,36 @@
+@media(min-width: 768px) {
+	.container {
+		padding: 0 4rem;
+	}
+	.nav {
+		padding: 1rem;
+	}
+	.nav_bar {
+		display: none;
+	}
+	.nav_menu {
+		position: relative;
+		display: flex;
+		justify-content: flex-end;
+		border-top: none;
+		height: auto;
+		margin: 0;
+		box-shadow: none;
+	}
+	.nav_item {
+		margin: 0;
+		padding: 0 1rem;
+	}
+	.nav_link {
+		padding: 0;
+	}
+	.nav_link:hover {		
+		border-bottom: 3px solid var(--secondary-color);
+	}
+	.social_link:hover {
+		color: var(--secondary-color);
+	}
+	.projects_title {
+		padding-bottom: 4rem;
+	}
+}
