@@ -77,35 +77,37 @@
   background-color: var(--bg-dark);
 }
 .about_info {
-  width: clamp(350px, 90%, 850px)
+  width: clamp(350px, 90%, 650px)
 }
 .about_name {
-  font-size: clamp(4rem, 4vw, 6rem);
-  color: var(--secondary-color);  
+  font-size: clamp(3rem, 4vw, 6rem);
+  color: var(--font-light);
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
 }
 .about_title {
   margin-top: .5rem;
   margin-left: .5rem;
   font-family: 'Montserrat', sans-serif;
-  font-size: clamp(1rem, 3vw, 2rem);
-  color: var(--primary-color);
+  font-size: clamp(1.3rem, 3vw, 1.7rem);
+  color: var(--secondary-color);
 }
 .about_description {
-  width: min(600px, 90%, 750px);
-  color: var(--font-light);
+  padding: 2rem 0 4.5rem;
+  color: var(--font-light-gray);
   line-height: 1.5;
-  margin: 2.5rem 0; 
-  margin-left: .5rem;
 }
 .about_tech {
-  display: flex;  
-  width: min(300px, 70%, 400px);
+  display: flex;
+  justify-content: flex-start;
 }
 .about_tech i {
-  font-size: clamp(1.5rem, 3vw, 2rem);
-  font-size: 1.5rem;
-  color: var(--font-light-gray);
-  margin: .5rem;
+  padding: .5rem;
+  margin-right: .4rem;
+  font-size: 1.25rem;
+  background-color: var(--font-light-gray);
+  color: var(--font-light-dark);
+  border-radius: 50%;
 }
 
 /*-----------------------------------------

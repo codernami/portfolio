@@ -13,6 +13,7 @@
   --secondary-color: #FF0266;
   --font-light: #FFFFFF; 
   --font-light-gray: #A7AAB1;
+  --font-light-dark: #121212; 
 }
 html {
    scroll-behavior: smooth;
