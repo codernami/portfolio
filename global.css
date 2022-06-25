@@ -1,5 +1,6 @@
-/* Global Styles 
-----------------------------------------------*/
+/*-----------------------------------------
+ GLOBAL STYLES
+------------------------------------------*/
 
 * {
   margin: 0;
@@ -7,19 +8,23 @@
   box-sizing: border-box;
 }
 :root {
-  --bg-dark: #121212; 
-  --light-dark: #1F1B24;
-  --primary-color: #FF7597;
-  --secondary-color: #FF0266;
+  --bg-dark: #0D1117;
+  --light-dark: #22272E;
+  --primary-color: #03DAC6;
+  --secondary-color: #018786;
   --font-light: #FFFFFF; 
-  --font-light-gray: #A7AAB1;
-  --font-light-dark: #121212; 
+  --font-light-gray: #8B949E;
+  --line-gray: #4C5257; 
+
+  --font-heading:'Poiret One', sans-serif;
+  --font-title: 'Montserrat', sans-serif;
+  --font-text: 'Montserrat', sans-serif;
+  --font-link: 'Poiret One', sans-serif;
 }
 html {
-   scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 body {
-  font-family: 'Montserrat', sans-serif;
   margin: 0;
   background-color: var(--bg-dark);
 }
@@ -32,10 +37,6 @@ ul {
 }
 a {
   text-decoration: none;
-}
-h1, h2 {
-  font-family: 'Poiret One', cursive;
-  letter-spacing: 3px;
 }
 .container {
   width: 100%;
